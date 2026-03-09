@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="163" height="34" viewBox="0 0 163 34" role="img" aria-labelledby="title desc">
+  <title id="title">Buy Now</title>
+  <desc id="desc">Ingram buy now button</desc>
+  <rect x="0.5" y="0.5" width="162" height="33" rx="8" fill="#FEBE10" stroke="#D7A20D"/>
+  <text x="81.5" y="22" text-anchor="middle" font-family="Open Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#000">Buy Now</text>
+</svg>
