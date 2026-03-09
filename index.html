@@ -893,6 +893,23 @@
                 }
             }
             @media (min-width: 769px) {
+                :root {
+                    --desktop-scale: clamp(0.78, min(calc(100vw / 1500), calc(100vh / 950)), 1);
+                }
+                @supports (zoom: 1) {
+                    body {
+                        zoom: var(--desktop-scale);
+                    }
+                }
+                @supports not (zoom: 1) {
+                    .header-wrap,
+                    #main-page,
+                    #featured-art {
+                        transform: scale(var(--desktop-scale));
+                        transform-origin: top center;
+                        width: calc(100% / var(--desktop-scale));
+                    }
+                }
                 .main-links {
                     left: 50%;
                     top: 125px;
